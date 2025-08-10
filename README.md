@@ -10,14 +10,15 @@ Automatiza la configuración de hostapd, dnsmasq, reglas de iptables y control d
 Ideal para crear un AP abierto o protegido con contraseña WPA2, con DHCP y NAT para compartir conexión a internet.
 Características
 
-* Compatible con distros basadas en Arch y Debian (próximamente más)
+    Compatible con distros basadas en Arch y Debian (próximamente más)
 
- * Configuración fácil: SSID, contraseña opcional y parámetros DHCP ajustables
- *  Manejo automático de servicios y reglas iptables
+    Configuración fácil: SSID, contraseña opcional y parámetros DHCP ajustables
 
-*  Scripts para iniciar y detener el AP correctamente
+    Manejo automático de servicios y reglas iptables
 
-  *  Muestra una introducción amigable al iniciar
+    Scripts para iniciar y detener el AP correctamente
+
+    Muestra una introducción amigable al iniciar
 
 Requisitos
 
