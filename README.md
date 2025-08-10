@@ -1,8 +1,8 @@
-Easy Pizi Wifi Squeeze (EPWS)
+# Easy Pizi Wifi Squeeze (EPWS)
 
     🐧 Levanta y controla un punto de acceso WiFi en Linux de forma sencilla y rápida.
 
-Descripción
+## Descripción
 
 Easy Pizi Wifi Squeeze (EPWS) es un script para crear un punto de acceso WiFi (AP) con tu adaptador inalámbrico en Linux.
 Automatiza la configuración de hostapd, dnsmasq, reglas de iptables y control de servicios (NetworkManager, systemd-resolved).
@@ -20,7 +20,7 @@ Características
 
     Muestra una introducción amigable al iniciar
 
-Requisitos
+## Requisitos
 
     Adaptador WiFi con soporte modo AP (nl80211 compatible)
 
@@ -34,7 +34,7 @@ Requisitos
 
     sudo
 
-MODO DE EMPLEO
+## MODO DE EMPLEO
 Ejecuta el script, instalará dependencias en caso de ser necesario, y luego creará el AP. Te preguntará si quieres proteger el AP con contraseña o dejarlo abierto.
 ```bash
 chmod +x EPWS.sh
@@ -56,7 +56,7 @@ Puedes modificar variables dentro del script para adaptar:
 
     Servidor DNS (DNS_SERVER)
 
-Notas
+## Notas
 
     El script detiene temporalmente NetworkManager y systemd-resolved para evitar conflictos con dnsmasq.
 
@@ -64,7 +64,7 @@ Notas
 
     Funciona mejor en adaptadores y drivers compatibles con modo AP (nl80211).
 
-Contribuciones
+## Contribuciones
 
 Pull requests y sugerencias son bienvenidas.
 Licencia
