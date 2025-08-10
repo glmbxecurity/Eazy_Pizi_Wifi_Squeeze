@@ -34,19 +34,12 @@ Requisitos
 
     sudo
 
-Instalación
-
-Ejecuta el script de instalación para instalar dependencias según tu distro:
-
-sudo ./install_deps.sh
-
-Uso
-
-Para iniciar el punto de acceso:
-
-sudo ./iniciar_ap.sh
-
-Te preguntará si quieres proteger el AP con contraseña o dejarlo abierto.
+MODO DE EMPLEO
+Ejecuta el script, instalará dependencias en caso de ser necesario, y luego creará el AP. Te preguntará si quieres proteger el AP con contraseña o dejarlo abierto.
+```bash
+chmod +x EPWS.sh
+bash EPWS.sh
+```
 
 Para detener el punto de acceso, simplemente presiona Ctrl + C. El script limpiará y restaurará la configuración original.
 Configuración
