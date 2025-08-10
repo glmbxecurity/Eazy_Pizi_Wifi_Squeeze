@@ -21,7 +21,7 @@ Características
     Muestra una introducción amigable al iniciar
 
 ### Compatibilidad
-    Fue desarrollado y probado en Arch, pero está pensado para funcionar tambien en distro basadas en Debian y Red Hat / Fedora
+Fue desarrollado y probado en Arch, pero está pensado para funcionar tambien en distro basadas en Debian y Red Hat / Fedora
 ## Requisitos
 
     Adaptador WiFi con soporte modo AP (nl80211 compatible)
